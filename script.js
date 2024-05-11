@@ -1,9 +1,9 @@
 function startFunction(){
     //Initializing which content gets displayed on page load
-    document.getElementById("gamesContent").style.display = "none";
-    document.getElementById("musicContent").style.display = "none";
-    document.getElementById("otherContent").style.display = "none";
-    document.getElementById("homeContent").style.display = "inline";
+    //document.getElementById("gamesContent").style.display = "none";
+    //document.getElementById("musicContent").style.display = "none";
+    //document.getElementById("otherContent").style.display = "none";
+    //document.getElementById("homeContent").style.display = "inline";
 
     //Animated gifs
     let buttonClass = document.getElementsByClassName("animatedButton");

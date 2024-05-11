@@ -72,3 +72,16 @@ h2 {
 #OtherButton {
     grid-area: other;
 }
+
+#gamesContent{
+    display: none;
+}
+#musicContent{
+    display: none;
+}
+#otherContent{
+    display: none;
+}
+#homeContent{
+    display: inline;
+}
