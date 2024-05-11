@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    visibility: collapse;
+}
+
+.active {
+    visibility: visible;
+}
+
+#contentBox::-webkit-scrollbar {
+    background-color: white;
+}
+
+#contentBox::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
+#main {
+    display: grid;
+    grid-template-rows: 155px 155px 155px 155px;
+    grid-template-columns: 155px 715px;
+
+    grid-gap: 3px;
+
+    grid-template-areas:
+            "title title"
+            "games content"
+            "music content"
+            "other content";
+}
+
+#logo {
+    border: 3px solid #000000;
+    grid-area: title;
+}
+
+#contentBox {
+    border: 3px solid #000000;
+    grid-area: content;
+}
+
+.button {
+    border: 3px solid #000000
+}
+
+#content {
+    margin-left: 10px;
+}
+
+h1 {
+    margin: 2px 2px 2px 2px;
+}
+
+h2 {
+    margin: 2px 2px 2px 2px;
+}
+
+#GamesButton {
+    grid-area: games;
+}
+
+#MusicButton {
+    grid-area: music;
+}
+
+#OtherButton {
+    grid-area: other;
+}
